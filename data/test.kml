@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample KML File</name>
+    
+    <!-- Point Example -->
+    <Placemark>
+      <name>Sample Point</name>
+      <Point>
+        <coordinates>78.9629,20.5937,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- LineString Example -->
+    <Placemark>
+      <name>Sample Line</name>
+      <LineString>
+        <coordinates>
+          78.9629,20.5937,0
+          78.9829,20.6037,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <!-- Polygon Example -->
+    <Placemark>
+      <name>Sample Polygon</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              78.9629,20.5937,0
+              78.9729,20.6037,0
+              78.9829,20.5937,0
+              78.9629,20.5937,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    
+    <!-- MultiLineString Example -->
+    <Placemark>
+      <name>Sample MultiLineString</name>
+      <MultiGeometry>
+        <LineString>
+          <coordinates>
+            78.9629,20.5937,0
+            78.9829,20.6037,0
+          </coordinates>
+        </LineString>
+        <LineString>
+          <coordinates>
+            78.9829,20.6037,0
+            78.9929,20.6137,0
+          </coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+
+  </Document>
+</kml>
+
