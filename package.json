@@ -2,7 +2,7 @@
   "name": "kml-viewer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://INFO-SANTHOSH.github.io/KML-viewer",
+  "homepage": "https://INFO-SANTHOSH.github.io/KML-viewer"
   "scripts": {
     "dev": "next dev",
     "build": "next build",
